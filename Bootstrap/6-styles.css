@@ -1,0 +1,40 @@
+:root {
+    --red: #E0003C;
+    --dark_red: #BC1340;
+    --white: #FFFFFF;
+    --grey: #8C8C8C;
+}
+
+.btn-primary {
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: var(--dark_red);
+}
+
+.btn-outline-primary {
+    color: var(--red);
+    border-color: var(--red);
+}
+
+a, a:hover, a:active {
+    color: var(--red);
+}
+
+.card {
+    border: 1px solid var(--red);
+    border-radius: 1rem;
+}
+
+.card-header {
+    background-color: var(--red);
+    border-bottom: 1px solid var(--red);
+    border-radius: 1rem;
+    color: var(--white);
+}
+
+.text-muted {
+    color: var(--test);
+}
